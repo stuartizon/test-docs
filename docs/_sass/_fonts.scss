@@ -1,32 +1,21 @@
 @font-face {
-  font-family: 'Open Sans';
-  src: url('/assets/fonts/OpenSans.eot');
-  src: url('/assets/fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/OpenSans.woff2') format('woff2'),
-    url('/assets/fonts/OpenSans.woff') format('woff'),
-    url('/assets/fonts/OpenSans.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Lato';
+    src: url('/assets/fonts/Lato.eot'); /* IE9 Compat Modes */
+    src: url('/assets/fonts/Lato.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/assets/fonts/Lato.woff2') format('woff2'), /* Modern Browsers */
+         url('/assets/fonts/Lato.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/Lato.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('/assets/fonts/OpenSans-Semibold.eot');
-  src: url('/assets/fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/OpenSans-Semibold.woff2') format('woff2'),
-    url('/assets/fonts/OpenSans-Semibold.woff') format('woff'),
-    url('/assets/fonts/OpenSans-Semibold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('/assets/fonts/OpenSans-Light.eot');
-  src: url('/assets/fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
-    url('/assets/fonts/OpenSans-Light.woff2') format('woff2'),
-    url('/assets/fonts/OpenSans-Light.woff') format('woff'),
-    url('/assets/fonts/OpenSans-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
+    font-family: 'Lato';
+    src: url('/assets/fonts/LatoHeavy.eot'); /* IE9 Compat Modes */
+    src: url('/assets/fonts/LatoHeavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/assets/fonts/LatoHeavy.woff2') format('woff2'), /* Modern Browsers */
+         url('/assets/fonts/LatoHeavy.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/LatoHeavy.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 600;
 }

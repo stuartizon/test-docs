@@ -5,6 +5,7 @@
  */
 
 // Core variables and mixins
+@import "variables";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 
@@ -19,7 +20,8 @@
 @import "type";
 @import "bootstrap/code";
 @import "bootstrap/grid";
-@import "bootstrap/tables";
+// @import "bootstrap/tables";
+@import "tables";
 @import "bootstrap/forms";
 @import "bootstrap/buttons";
 
@@ -45,6 +47,9 @@
 @import "bootstrap/responsive-embed";
 @import "bootstrap/wells";
 @import "bootstrap/close";
+
+// Custom Components
+@import "sidebar";
 
 // Components w/ JavaScript
 @import "bootstrap/modals";
