@@ -12,7 +12,7 @@
     margin-left: -$sidebar-width;
     overflow-y: auto;
     background-image: linear-gradient(135deg,#79ba10 0,#24911d 100%);
-    background-image: url("/assets/img/jumbotron_pattern.png");
+    background-image: url("../img/jumbotron_pattern.png");
     background-size: cover;
     // @include transition(all 0.5s ease);
 }
@@ -70,7 +70,7 @@
     position: relative;
     width: 36px;
     height: 36px;
-    background: url('/assets/img/sidebar_brand.png') no-repeat;
+    background: url('../img/sidebar_brand.png') no-repeat;
     span {
         position: absolute;
         top: 0;
@@ -79,108 +79,3 @@
         white-space: nowrap;
     }
 }
-
-
-// #wrapper {
-//     padding-left: 0;
-//     // @include transition(all 0.5s ease);
-//     &.toggled {
-//         padding-left: 250px;
-//     }
-// }
-
-// #wrapper.toggled #sidebar-wrapper {
-//     width: 250px;
-// }
-
-// #page-content-wrapper {
-//     width: 100%;
-//     position: absolute;
-//     // .nav {
-//     //     background: #fff;
-//     //     max-height: 76px;
-//     //     a {
-//     //         padding: 26px 15px;
-//     //         display: block;
-//     //         &:hover {
-//     //             text-decoration: none;
-//     //         }
-//     //         i {
-//     //             font-size: 18px;
-//     //         }
-//     //     }
-//     //     ul {
-//     //         padding: 0;
-//     //         margin: 0;
-//     //         li {
-//     //             list-style: none;
-//     //             display: inline-block;
-//     //             span {
-//     //                 margin-left: 10px;
-//     //                 font-size: 14px;
-//     //             }
-//     //         }
-//     //     }
-//     // }
-// }
-
-// #wrapper.toggled #page-content-wrapper {
-//     position: absolute;
-//     margin-right: -250px;
-// }
-
-// .sidebar-nav {
-//     position: absolute;
-//     top: 0;
-//     width: 250px;
-//     margin: 0;
-//     padding: 0;
-//     list-style: none;
-//     > li {
-//         line-height: 40px;
-//         margin-bottom: 8px;
-//         > a {
-//             padding: 0 24px;
-//             display: block;
-//             text-decoration: none;
-//             color: rgba(255, 255, 255, 0.7);
-//             &.active {
-//                 padding-left: 21px;
-//                 color: #fff;
-//             }
-//             &:hover {
-//                 text-decoration: none;
-//                 color: #fff;
-//                 background: rgba(255, 255, 255, 0.2);
-//             }
-//             &:active,
-//             &:focus {
-//                 text-decoration: none;
-//             }
-//         }
-//     }
-//     .active {
-//         display: block;
-//     }
-//     > .sidebar-brand {
-//         font-size: 17px;
-//         margin-bottom: 16px;
-//         a {
-//             padding: 20px 24px;
-//             color: #fff;
-//             .brand-wrapper {
-//                 position: relative;
-//                 width: 36px;
-//                 height: 36px;
-//                 background: url('/assets/img/sidebar_brand.png') no-repeat;
-//                 span {
-//                     position: absolute;
-//                     top: 0;
-//                     left: 42px;
-//                     z-index: 30;
-// 					white-space: nowrap;
-//                 }
-//             }
-//         }
-//     }
-// }

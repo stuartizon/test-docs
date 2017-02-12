@@ -1,10 +1,12 @@
 title: Quote Service
 email: qs-devs@ovoenergy.com
 description: Quote service
+organisation: stuartizon #ovoenergy
+baseurl: /test-docs
 
 # Build settings
 markdown: kramdown
-# theme: jekyll-theme-slate
+highlighter: rouge
 exclude:
   - Gemfile
   - Gemfile.lock
