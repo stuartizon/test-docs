@@ -4,7 +4,7 @@ title: Errors
 ---
 
 # Errors
-The quote __service__ _uses_ the following error codes:
+The quote service uses the following error codes:
 
 Error Code | Meaning
 ---------- | -------
