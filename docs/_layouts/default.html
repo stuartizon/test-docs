@@ -2,11 +2,24 @@
 <html>
 
 <head>
-  {% include head.html %}
+    {% include head.html %}
 </head>
 
 <body>
-    {{ content }}
+    <div id="wrapper">
+        <div id="sidebar-wrapper">
+            {% include sidebar.html %}
+        </div>
+        <div id="page-content-wrapper">
+            <div id="content">
+                <div class="content-wrapper">
+                    <section>
+                        {{ content }}
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -1,9 +1,8 @@
 ---
-layout: docs
 ---
 
 # Quote Service
-Microservice for generating energy quotes
+_Microservice for generating energy quotes_
 
 ## Types of quotes
 This service provides endpoints for the following types of quotes:
