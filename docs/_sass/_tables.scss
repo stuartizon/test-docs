@@ -4,3 +4,7 @@ table {
     @extend .table;
     @extend .table-striped;
 }
+
+td code {
+    background-color: unset;
+}
