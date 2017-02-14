@@ -19,5 +19,4 @@ fuel*          | Dual fuel or electricity only   | `[Dual, Electricity]`
 serviceType*   | Online discount or full service | `[Online, FullService]`
 region         | Electricity region (see below)  | `[EastEngland, EastMidlands, London, MerseysideAndNorthWales, NorthEastEngland, NorthernIreland, NorthWestEngland, NorthScotland, SouthEastEngland, SouthernEngland, SouthScotland, SouthWales, SouthWestEngland, WestMidlands, Yorkshire]`-->
 
-## Region
-{% include region.html %}
+{% include region.md %}

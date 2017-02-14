@@ -1,8 +1,8 @@
 options:
   - title: Quick Quote
     url: quick-quote
-  - title: Full Quote
-    url: full-quote
+#   - title: Full Quote
+    # url: full-quote
   - title: Quote Response
     url: quote-response
   - title: Errors
